@@ -1,0 +1,8 @@
+.product-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+

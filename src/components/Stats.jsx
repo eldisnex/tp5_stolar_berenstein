@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import FilterContext from '../context/FilterContext';
+import './Stats.css';
 
 export default function Stats({ pedidos }) {
    const { labels } = useContext(FilterContext);
@@ -11,10 +12,10 @@ export default function Stats({ pedidos }) {
       [0, 0, 0]
    );
    return (
-      <div>
+      <div className="stats-card">
          <p>Total de pedidos: {pedidos.length}</p>
          {labels.map((l, i) => (
-            <p>
+            <p key={l}>
                Total {l}: {quantities[i]}
             </p>
          ))}

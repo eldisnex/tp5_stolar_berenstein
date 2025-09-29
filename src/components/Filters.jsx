@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import FilterContext from '../context/FilterContext';
+import './Filters.css';
 
 export default function Filters() {
    const { state, setState, labels } = useContext(FilterContext);

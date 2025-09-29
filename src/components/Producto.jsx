@@ -1,9 +1,11 @@
+import './Producto.css';
+
 export default function Producto({ producto }) {
    return (
-      <li>
-         <p>Articulo: {producto.nombre}</p>
-         <p>Cantidad: {producto.cantidad}</p>
-         <p>Precio: ${producto.precio}</p>
+      <li className="product-item">
+         <span>Articulo: {producto.nombre}</span>
+         <span>Cantidad: {producto.cantidad}</span>
+         <span>Precio: ${producto.precio}</span>
       </li>
    );
 }

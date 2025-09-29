@@ -1,0 +1,38 @@
+.table-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px 16px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.06);
+}
+
+.table-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.pedidos-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.pedidos-tabla th,
+.pedidos-tabla td {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  text-align: left;
+}
+
+.pedidos-tabla th {
+  background-color: #f1f5f9;
+}
+
+.pedidos-tabla tr:nth-child(even) {
+  background-color: #fcfcfc;
+}
+
+.pedidos-tabla tbody tr:hover {
+  background: #ecfeff;
+}
+

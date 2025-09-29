@@ -1,0 +1,22 @@
+.filters {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px 18px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.06);
+  margin: 18px 0;
+  text-align: left;
+}
+
+.filters > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.filters input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #0ea5e9;
+}
+
